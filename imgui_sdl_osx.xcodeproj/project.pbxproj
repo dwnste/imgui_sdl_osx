@@ -6,8 +6,47 @@
 	objectVersion = 48;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8750303420473EB1003D9102 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8750303320473EB1003D9102 /* OpenGL.framework */; };
+		8750303620473EC9003D9102 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8750303520473EC9003D9102 /* SDL2.framework */; };
+		8750303A20473F3D003D9102 /* rd_route.c in Sources */ = {isa = PBXBuildFile; fileRef = 8750303820473F3C003D9102 /* rd_route.c */; };
+		8750303B20473F3D003D9102 /* rd_route.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750303920473F3D003D9102 /* rd_route.h */; };
+		8750303E20473F5F003D9102 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8750303C20473F5F003D9102 /* main.cpp */; };
+		8750303F20473F5F003D9102 /* main.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8750303D20473F5F003D9102 /* main.hpp */; };
+		8750304220473F7D003D9102 /* hook.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8750304020473F7D003D9102 /* hook.cpp */; };
+		8750304320473F7D003D9102 /* hook.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 8750304120473F7D003D9102 /* hook.hpp */; };
+		8750305020474824003D9102 /* imgui_impl_sdl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8750304620474823003D9102 /* imgui_impl_sdl.cpp */; };
+		8750305120474824003D9102 /* stb_truetype.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750304720474823003D9102 /* stb_truetype.h */; };
+		8750305220474824003D9102 /* imconfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750304820474823003D9102 /* imconfig.h */; };
+		8750305320474824003D9102 /* imgui_internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750304920474823003D9102 /* imgui_internal.h */; };
+		8750305420474824003D9102 /* imgui.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750304A20474824003D9102 /* imgui.h */; };
+		8750305520474824003D9102 /* stb_textedit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750304B20474824003D9102 /* stb_textedit.h */; };
+		8750305620474824003D9102 /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8750304C20474824003D9102 /* imgui_draw.cpp */; };
+		8750305720474824003D9102 /* stb_rect_pack.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750304D20474824003D9102 /* stb_rect_pack.h */; };
+		8750305820474824003D9102 /* imgui_impl_sdl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750304E20474824003D9102 /* imgui_impl_sdl.h */; };
+		8750305920474824003D9102 /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8750304F20474824003D9102 /* imgui.cpp */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		8750302B20473EA2003D9102 /* libimgui_sdl_osx.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libimgui_sdl_osx.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		8750303320473EB1003D9102 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		8750303520473EC9003D9102 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		8750303820473F3C003D9102 /* rd_route.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rd_route.c; sourceTree = "<group>"; };
+		8750303920473F3D003D9102 /* rd_route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rd_route.h; sourceTree = "<group>"; };
+		8750303C20473F5F003D9102 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		8750303D20473F5F003D9102 /* main.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = main.hpp; sourceTree = "<group>"; };
+		8750304020473F7D003D9102 /* hook.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = hook.cpp; sourceTree = "<group>"; };
+		8750304120473F7D003D9102 /* hook.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = hook.hpp; sourceTree = "<group>"; };
+		8750304620474823003D9102 /* imgui_impl_sdl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_impl_sdl.cpp; sourceTree = "<group>"; };
+		8750304720474823003D9102 /* stb_truetype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_truetype.h; sourceTree = "<group>"; };
+		8750304820474823003D9102 /* imconfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imconfig.h; sourceTree = "<group>"; };
+		8750304920474823003D9102 /* imgui_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_internal.h; sourceTree = "<group>"; };
+		8750304A20474824003D9102 /* imgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui.h; sourceTree = "<group>"; };
+		8750304B20474824003D9102 /* stb_textedit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_textedit.h; sourceTree = "<group>"; };
+		8750304C20474824003D9102 /* imgui_draw.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui_draw.cpp; sourceTree = "<group>"; };
+		8750304D20474824003D9102 /* stb_rect_pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_rect_pack.h; sourceTree = "<group>"; };
+		8750304E20474824003D9102 /* imgui_impl_sdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgui_impl_sdl.h; sourceTree = "<group>"; };
+		8750304F20474824003D9102 /* imgui.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imgui.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -15,6 +54,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8750303620473EC9003D9102 /* SDL2.framework in Frameworks */,
+				8750303420473EB1003D9102 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -24,7 +65,13 @@
 		8750302220473EA2003D9102 = {
 			isa = PBXGroup;
 			children = (
+				8750304020473F7D003D9102 /* hook.cpp */,
+				8750304120473F7D003D9102 /* hook.hpp */,
+				8750303C20473F5F003D9102 /* main.cpp */,
+				8750303D20473F5F003D9102 /* main.hpp */,
+				8750305C20475730003D9102 /* Thirdparty */,
 				8750302C20473EA2003D9102 /* Products */,
+				8750303220473EB1003D9102 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -36,6 +83,52 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		8750303220473EB1003D9102 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8750303520473EC9003D9102 /* SDL2.framework */,
+				8750303320473EB1003D9102 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8750305A2047570D003D9102 /* imgui */ = {
+			isa = PBXGroup;
+			children = (
+				8750304820474823003D9102 /* imconfig.h */,
+				8750304C20474824003D9102 /* imgui_draw.cpp */,
+				8750304620474823003D9102 /* imgui_impl_sdl.cpp */,
+				8750304E20474824003D9102 /* imgui_impl_sdl.h */,
+				8750304920474823003D9102 /* imgui_internal.h */,
+				8750304F20474824003D9102 /* imgui.cpp */,
+				8750304A20474824003D9102 /* imgui.h */,
+				8750304D20474824003D9102 /* stb_rect_pack.h */,
+				8750304B20474824003D9102 /* stb_textedit.h */,
+				8750304720474823003D9102 /* stb_truetype.h */,
+			);
+			name = imgui;
+			path = Thirdparty;
+			sourceTree = "<group>";
+		};
+		8750305B2047571C003D9102 /* rd_route */ = {
+			isa = PBXGroup;
+			children = (
+				8750303820473F3C003D9102 /* rd_route.c */,
+				8750303920473F3D003D9102 /* rd_route.h */,
+			);
+			name = rd_route;
+			path = Thirdparty;
+			sourceTree = "<group>";
+		};
+		8750305C20475730003D9102 /* Thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				8750305B2047571C003D9102 /* rd_route */,
+				8750305A2047570D003D9102 /* imgui */,
+			);
+			name = Thirdparty;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -43,6 +136,16 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8750305820474824003D9102 /* imgui_impl_sdl.h in Headers */,
+				8750304320473F7D003D9102 /* hook.hpp in Headers */,
+				8750305220474824003D9102 /* imconfig.h in Headers */,
+				8750303B20473F3D003D9102 /* rd_route.h in Headers */,
+				8750305420474824003D9102 /* imgui.h in Headers */,
+				8750305720474824003D9102 /* stb_rect_pack.h in Headers */,
+				8750305120474824003D9102 /* stb_truetype.h in Headers */,
+				8750303F20473F5F003D9102 /* main.hpp in Headers */,
+				8750305320474824003D9102 /* imgui_internal.h in Headers */,
+				8750305520474824003D9102 /* stb_textedit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +206,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8750303E20473F5F003D9102 /* main.cpp in Sources */,
+				8750305020474824003D9102 /* imgui_impl_sdl.cpp in Sources */,
+				8750303A20473F3D003D9102 /* rd_route.c in Sources */,
+				8750305620474824003D9102 /* imgui_draw.cpp in Sources */,
+				8750304220473F7D003D9102 /* hook.cpp in Sources */,
+				8750305920474824003D9102 /* imgui.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +328,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -230,6 +343,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
