@@ -102,7 +102,7 @@ void SDLHook::SwapWindow(SDL_Window* window) {
     // For some reason you need to call the original SwapWindow at first.
     Original_SDL_GL_SwapWindow(window);
     // Then switch back to original context.
-    Original_SDL_GL_MakeCurrent(window, original_context);
+    SDLHook::MakeCurrent(window, original_context);
     // Without this guy you will get flickering effect.
     glFlush();
 }
