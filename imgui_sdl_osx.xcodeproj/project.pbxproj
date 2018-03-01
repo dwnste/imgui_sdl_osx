@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		8750303420473EB1003D9102 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8750303320473EB1003D9102 /* OpenGL.framework */; };
-		8750303620473EC9003D9102 /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8750303520473EC9003D9102 /* SDL2.framework */; };
 		8750303A20473F3D003D9102 /* rd_route.c in Sources */ = {isa = PBXBuildFile; fileRef = 8750303820473F3C003D9102 /* rd_route.c */; };
 		8750303B20473F3D003D9102 /* rd_route.h in Headers */ = {isa = PBXBuildFile; fileRef = 8750303920473F3D003D9102 /* rd_route.h */; };
 		8750303E20473F5F003D9102 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8750303C20473F5F003D9102 /* main.cpp */; };
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		8750302B20473EA2003D9102 /* libimgui_sdl_osx.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libimgui_sdl_osx.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		8750303320473EB1003D9102 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		8750303520473EC9003D9102 /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
 		8750303820473F3C003D9102 /* rd_route.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rd_route.c; sourceTree = "<group>"; };
 		8750303920473F3D003D9102 /* rd_route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rd_route.h; sourceTree = "<group>"; };
 		8750303C20473F5F003D9102 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
@@ -54,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8750303620473EC9003D9102 /* SDL2.framework in Frameworks */,
 				8750303420473EB1003D9102 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -86,7 +83,6 @@
 		8750303220473EB1003D9102 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8750303520473EC9003D9102 /* SDL2.framework */,
 				8750303320473EB1003D9102 /* OpenGL.framework */,
 			);
 			name = Frameworks;

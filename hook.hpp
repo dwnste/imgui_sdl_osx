@@ -9,7 +9,6 @@
 #ifndef hook_hpp
 #define hook_hpp
 
-#include "hook.hpp"
 #include <OpenGL/gl.h>
 #include <SDL2/SDL.h>
 #include "dlfcn.h"
