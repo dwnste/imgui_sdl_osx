@@ -13,7 +13,7 @@
 #include <SDL2/SDL.h>
 #include "dlfcn.h"
 #include "imgui.h"
-#include "imgui_impl_sdl.h"
+#include "imgui_impl_sdl_gl2.h"
 
 namespace SDLHook {
     void Init();
