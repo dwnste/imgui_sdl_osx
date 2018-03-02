@@ -34,11 +34,13 @@
 //  2016-09-05: OpenGL: Fixed save and restore of current scissor rectangle.
 //  2016-07-29: OpenGL: Explicitly setting GL_UNPACK_ROW_LENGTH to reduce issues because SDL changes it. (#752)
 
+#include <OpenGL/OpenGL.h>
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_syswm.h>
 #include <SDL2/SDL_opengl.h>
 #include "imgui.h"
 #include "imgui_impl_sdl_gl2.h"
+#include "hook.hpp"
 
 // Data
 static Uint64       g_Time = 0;

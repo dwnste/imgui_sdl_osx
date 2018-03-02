@@ -14,24 +14,12 @@
 #include "dlfcn.h"
 #include "imgui.h"
 #include "imgui_impl_sdl_gl2.h"
+#include "module.hpp"
+#include "helpers.hpp"
 
 namespace SDLHook {
     void Init();
-    void DrawUI();
-    SDL_Window* GetCurrentWindow();
-    SDL_GLContext CreateContext(SDL_Window* window);
-    SDL_GLContext GetCurrentContext();
-    int MakeCurrent(SDL_Window* window, SDL_GLContext context);
     void SwapWindow(SDL_Window* window);
-    char* GetClipboardText(void);
-    int SetClipboardText(const char* text);
-    SDL_Keymod GetModState(void);
-    void GetWindowSize(SDL_Window* window, int* w, int* h);
-    void GetDrawableSize(SDL_Window* window, int* w, int* h);
-    Uint32 GetWindowFlags(SDL_Window* window);
-    Uint32 GetTicks(void);
-    Uint32 GetMouseState(int* x, int* y);
-    int ShowCursor(int toggle);
 }
 
 #endif /* hook_hpp */
