@@ -11,7 +11,10 @@ You can replace *rd_route* with for example *mach_override* or even implement yo
 
 ### Usage
 1) Open project in XCode
-2) Download [SDL2](https://www.libsdl.org/download-2.0.php) and set the correct path to it.
+2) Install *SDL2* library with [Homebrew](https://brew.sh/)
+```
+brew install sdl2
+```
 3) Build the project.
 4) Inject the lib. (for example with [osxinj](https://github.com/scen/osxinj))
 
