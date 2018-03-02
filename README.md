@@ -10,20 +10,21 @@ And the last but not the least, you need to call __glFlush()__ in the end of you
 You can replace *rd_route* with for example *mach_override* or even implement your own pattern scanner, this repo is just a proof of concept.  
 
 ### Usage
-1) Open project in XCode
-2) Install *SDL2* library with [Homebrew](https://brew.sh/)
+1) Open project in XCode.  
+2) Install *SDL2* library with [Homebrew](https://brew.sh/).  
 ```
 brew install sdl2
 ```
 3) Build the project.
-4) Inject the lib. (for example with [osxinj](https://github.com/scen/osxinj))
+4) Inject the lib. (for example with [osxinj](https://github.com/scen/osxinj)) 
 
 
-### Libs used:
+### Credits:
 - [ImGui](https://github.com/ocornut/imgui)
-- [rd_route](https://github.com/rodionovd/rd_route)
+- [scen](https://github.com/scen) for his [libemryo](https://github.com/scen/libembryo)
 
 
 ### Thanks to:
 - [@aixxe](https://github.com/aixxe) and his [SDL2 hooking example on Linux](https://github.com/aixxe/imgui-sdl-csgo)
 - [@LWSS](https://github.com/LWSS) and [@Marc3842h](https://github.com/Marc3842h)
+- [@aKalisch](https://github.com/aKalisch) for [his suggestions](https://github.com/dwnste/imgui_sdl_osx/issues/2)
