@@ -6,9 +6,6 @@ Another one is that to render anything you need to call original __SDL_GL_SwapWi
 
 And the last but not the least, you need to call __glFlush()__ in the end of yours __SDL_GL_SwapWindow__ override function so you could get rid of flickering effect.  
 
-
-You can replace *rd_route* with for example *mach_override* or even implement your own pattern scanner, this repo is just a proof of concept.  
-
 ### Usage
 1) Open project in XCode.  
 2) Install *SDL2* library with [Homebrew](https://brew.sh/).  
@@ -21,7 +18,7 @@ brew install sdl2
 
 ### Credits:
 - [ImGui](https://github.com/ocornut/imgui)
-- [scen](https://github.com/scen) for his [libemryo](https://github.com/scen/libembryo)
+- [scen](https://github.com/scen) for his [libembryo](https://github.com/scen/libembryo)
 
 
 ### Thanks to:
