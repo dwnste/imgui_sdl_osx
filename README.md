@@ -1,17 +1,15 @@
 # imgui_sdl_osx 
 
-The main difference between this and __SDL_GL_SwapWindow__ hooking approach on Linux is that you need to hook every single function you want to use.  
+To render anything you need to call original __SDL_GL_SwapWindow__ before you actually call __SDL_GL_MakeCurrent__ (with original context as one of the arguments).  
 
-Another one is that to render anything you need to call original __SDL_GL_SwapWindow__ before you actually call __SDL_GL_MakeCurrent__ (with original context as one of the arguments).  
-
-And the last but not the least, you need to call __glFlush()__ in the end of yours __SDL_GL_SwapWindow__ override function so you could get rid of flickering effect.  
+Moreover, you need to call __glFlush()__ in the bottom of your __SDL_GL_SwapWindow__ override function to get rid of flickering effect.  
 
 ### Usage
-1) Open project in XCode.  
-2) Install *SDL2* library with [Homebrew](https://brew.sh/).  
-```
+1) Install *SDL2* library with [Homebrew](https://brew.sh/).  
+```bash
 brew install sdl2
 ```
+2) Open project in XCode.  
 3) Build the project.
 4) Inject the lib. (for example with [osxinj](https://github.com/scen/osxinj)) 
 
