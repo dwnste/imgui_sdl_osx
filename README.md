@@ -20,6 +20,6 @@ brew install sdl2
 
 
 ### Thanks to:
-- [@aixxe](https://github.com/aixxe) and his [SDL2 hooking example on Linux](https://github.com/aixxe/imgui-sdl-csgo)
+- [@aixxe](https://github.com/aixxe) and his [SDL2 hooking example on Linux](https://github.com/aixxe/imgui-sdl-csgo](https://aixxe.net/2016/12/imgui-linux-csgo)
 - [@LWSS](https://github.com/LWSS) and [@Marc3842h](https://github.com/Marc3842h)
 - [@aKalisch](https://github.com/aKalisch) for [his suggestions](https://github.com/dwnste/imgui_sdl_osx/issues/2)
